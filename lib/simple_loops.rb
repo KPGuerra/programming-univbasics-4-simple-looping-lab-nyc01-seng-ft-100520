@@ -27,6 +27,7 @@ def return_string_array (array)
   counter = 0 
   until counter == array.length
     array[counter] = array[counter].to_s
+    counter += 1
   end
-  return array
+  array
 end 
